@@ -1,9 +1,8 @@
-//Learning File system .. help to read, write ,append ,delete
+//Creating a basic server using 'http' module which help to handle the request & response of the server
 
-const fs = require('fs')
- fs.writeFileSync("hello.txt","Creating this file with Filesystem 'write file sync") //create a file with name hello.tx with the written input
+const http = require('http');  //importing http module
 
-//  The file whic are imported with require() function are **NON GLOBAL**
-
-console.log("=>",__filename); //return file name
-console.log("=>",__dirname);    //return path of directory
+http.createServer((req,res)=>{
+    res.write("<h1>Hello Tushar, Your server is Live and Responding properly</h1>");
+    res.end();
+}).listen(4500);

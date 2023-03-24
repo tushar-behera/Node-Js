@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tushar-behera/Node-Js/issues"
   },
-  "homepage": "https://github.com/tushar-behera/Node-Js#readme"
+  "homepage": "https://github.com/tushar-behera/Node-Js#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
 }

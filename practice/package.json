@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/tushar-behera/Node-Js#readme",
   "dependencies": {
+    "chalk": "^4.1.2",
     "colors": "^1.4.0"
   }
 }
